@@ -1,10 +1,22 @@
 :root{
     --branco-principal:#ffffff;
-    --botão-rosa: #df1f6c;
+    --botao-rosa: #df1f6c;
     --cor-de-fundo: #00030c;
     }
 
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal)
+}
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container__botao{
+    background-color:var(--botao-rosa);
+    border-radius: 5px;
+    padding:1em;
+    color:var(--branco-principal);
+    display: block;
 }
