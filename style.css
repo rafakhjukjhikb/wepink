@@ -2,11 +2,16 @@
     --branco-principal:#ffffff;
     --botao-rosa: #df1f6c;
     --cor-de-fundo: #00030c;
+    --fonte-principal: 'Inria Serif';
+
     }
 
 body{
     background-color: var(--cor-de-fundo);
-    color: var(--branco-principal)
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400px;
 }
 .container{
     height: 100vh;
@@ -19,4 +24,9 @@ body{
     padding:1em;
     color:var(--branco-principal);
     display: block;
+    text-decoration: none;
+}
+.containe-aviso{
+    font-size: 20;
+    color: var(--branco-principal);
 }
